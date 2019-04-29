@@ -15,7 +15,6 @@ namespace DaysToHoliday
 
             TimeSpan daysToGo = holidayStart.Date - today.Date;
 
-            
             Console.WriteLine(daysToGo.ToString("dddd").TrimStart('0'));
         }
     }
